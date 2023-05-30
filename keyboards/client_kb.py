@@ -1,0 +1,30 @@
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+
+calendarMainKb = InlineKeyboardMarkup(row_width=1)
+addTimeSex = InlineKeyboardButton(text="Добавить", callback_data="addTimeSex")
+showTotalTimesSex = InlineKeyboardButton(text="Показать количество мастурбаций", callback_data="showTotalTimesSex")
+statisticTimesSex = InlineKeyboardButton(text="Статистика", callback_data="statisticTimesSex")
+wantFuksNaw = InlineKeyboardButton(text="Хочу дрочить", callback_data="wantFuksNaw")
+reminderOfSex = InlineKeyboardButton(text="Установить напоминания", callback_data="reminderOfSex")
+calendarMainKb.add(addTimeSex, showTotalTimesSex, statisticTimesSex, wantFuksNaw, reminderOfSex)
+
+pornFirstFlowKb = InlineKeyboardMarkup(row_width=1)
+pornStar = InlineKeyboardButton(text="Порно звёзды", callback_data="pornstars")
+genresPorn = InlineKeyboardButton(text="Жанры", callback_data="genresPorn")
+pornFirstFlowKb.add(pornStar, genresPorn)
+
+pornStarsUrlKb = InlineKeyboardMarkup(row_width=2)
+evaElfi = InlineKeyboardButton(text="Eva Elfie", url="https://rt.pornhub.com/pornstar/eva-elfie?ysclid=li7s01b26q844196090")
+luxuryGirls = InlineKeyboardButton(text="Luxury Girl\'s", url="https://rt.pornhub.com/model/luxury-girl?ysclid=li7s0qoqig686707970")
+sweetieFox = InlineKeyboardButton(text="Sweetie Fox", url="https://rt.pornhub.com/model/sweetie-fox?ysclid=li7s4fapct221496298")
+rileyReid = InlineKeyboardButton(text="Riley Reid", url="https://rt.pornhub.com/pornstar/riley-reid?ysclid=li7s6xv08x733568534")
+lanaRhoades = InlineKeyboardButton(text="Lana Rhoades", url="https://rt.pornhub.com/pornstar/lana-rhoades?ysclid=li7s9g6g9h819324726")
+pornStarsUrlKb.add(evaElfi, luxuryGirls, sweetieFox, rileyReid, lanaRhoades)
+
+genresUrlKb = InlineKeyboardMarkup(row_width=2)
+homevideo = InlineKeyboardButton(text="Home Video", url="https://rt.pornhub.com/video/search?search=homemade+video")
+multipleCreampie = InlineKeyboardButton(text="Multiple Creampie", url="https://rt.pornhub.com/video/search?search=multiple+creampie")
+publicAgent = InlineKeyboardButton(text="Public Agent", url="https://rt.pornhub.com/video/search?search=public+agent")
+gloryhole = InlineKeyboardButton(text="Gloryhole", url="https://rt.pornhub.com/video/search?search=gloryhole")
+stepSister = InlineKeyboardButton(text="Step Sister", url="https://rt.pornhub.com/video/search?search=step+sister")
+genresUrlKb.add(homevideo, multipleCreampie, publicAgent, gloryhole, stepSister)
